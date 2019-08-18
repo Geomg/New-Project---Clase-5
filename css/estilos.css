@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #204969;
+}
+.contenedor {
+
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+    overflow: hidden;
+    background: #fce2ae;
+
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 45px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: #111111;
+}
+
+.post h2 {
+    border: 2px red solid;
+}
+
+.main{
+    width: 70%;
+    float: left;
+    
+}
+
+.main .imagen{
+    width: 100%;
+}
+
+.main .imagen img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .post{
+    padding: 40px;
+}
+
+.main .post article h2{
+    margin-bottom: 20px;
+    color: #424242;
+    }
+
+.main .post article p{
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+aside{
+    background: #6e9086;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+aside .widget .titulo{
+    color: #010059;
+    text-decoration-line: underline;
+
+}
+
+aside .widget ul li a{
+    text-decoration: none;
+    color: Black;
+    }
+
+aside .widget ul li a:hover{
+    background: white;
+    }
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+
+main{
+    width 70%;
+}
+
